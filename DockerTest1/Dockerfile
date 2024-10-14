@@ -14,7 +14,7 @@ RUN dotnet restore
 COPY . ./
 RUN dotnet publish --no-restore -c Release -o out
 
-# Final stage for running the application
+# Final stage for running the app
 FROM base AS final
 WORKDIR /app
 COPY --from=build-env /app/out ./
