@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Enes\\source\\repos\\DockerTest1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D846CEBB-B6B2-4ACC-ADC9-44724000CA72}|DockerTest1\\DockerTest1.csproj|c:\\users\\enes\\source\\repos\\dockertest1\\dockertest1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D846CEBB-B6B2-4ACC-ADC9-44724000CA72}|DockerTest1\\DockerTest1.csproj|solutionrelative:dockertest1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D846CEBB-B6B2-4ACC-ADC9-44724000CA72}|DockerTest1\\DockerTest1.csproj|c:\\users\\enes\\source\\repos\\dockertest1\\dockertest1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D846CEBB-B6B2-4ACC-ADC9-44724000CA72}|DockerTest1\\DockerTest1.csproj|solutionrelative:dockertest1\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Enes\\source\\repos\\DockerTest1\\DockerTest1\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DockerTest1\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Enes\\source\\repos\\DockerTest1\\DockerTest1\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DockerTest1\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:17:56.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Enes\\source\\repos\\DockerTest1\\DockerTest1\\Dockerfile",
+              "RelativeDocumentMoniker": "DockerTest1\\Dockerfile",
+              "ToolTip": "C:\\Users\\Enes\\source\\repos\\DockerTest1\\DockerTest1\\Dockerfile",
+              "RelativeToolTip": "DockerTest1\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-14T12:17:04.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
