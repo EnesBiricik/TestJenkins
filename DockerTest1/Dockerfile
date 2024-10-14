@@ -18,4 +18,4 @@ RUN dotnet publish --no-restore -c Release -o out
 FROM base AS final
 WORKDIR /app
 COPY --from=build-env /app/out ./
-ENTRYPOINT ["dotnet", "Api.dll"]
+ENTRYPOINT ["dotnet", "DockerTest1.dll"]
