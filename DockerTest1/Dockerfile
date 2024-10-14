@@ -4,8 +4,8 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["DockerTest1/DockerTest1.csproj", "DockerTest1/"]
-RUN dotnet restore "./DockerTest1/DockerTest1.csproj"
+COPY ["./DockerTest1/DockerTest1.csproj", "DockerTest1/"]
+RUN dotnet restore
 COPY . .
 WORKDIR "/src/DockerTest1"
 RUN dotnet build "./DockerTest1.csproj" -c $BUILD_CONFIGURATION -o /app/build
