@@ -17,7 +17,6 @@ namespace DockerTest1.Controllers
         {
             _logger = logger;
         }
-
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
