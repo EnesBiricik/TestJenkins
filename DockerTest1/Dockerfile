@@ -1,4 +1,4 @@
-# Base image for the runtime
+# Base image for the runtimee
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 
