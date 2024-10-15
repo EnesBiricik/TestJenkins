@@ -9,5 +9,5 @@ RUN dotnet restore
 RUN dotnet publish -c Release -o /app
 FROM base AS final
 WORKDIR /app
-COPY --from=build /app .
+COPY --from=build /app ./
 ENTRYPOINT ["dotnet", "DockerTest1.dll"]
