@@ -8,7 +8,7 @@ namespace DockerTest1.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "FreezingXXXXXXX", "BracingXXXX", "Chilly", "CoolXXX", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "FreezingXXXXXXX", "BracingXXXX", "Chillys", "CoolXXX", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
