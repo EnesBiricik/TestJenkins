@@ -1,7 +1,7 @@
 services:
   testapi:
     build:
-      context: ./DockerTest1
+      context: .
       dockerfile: Dockerfile
     ports:
       - "1000:1000"
