@@ -1,8 +1,10 @@
 services:
-  testapi:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - "1000:1000"
-    container_name: c_testapi
+     testapi:
+       build:
+         context: .
+         dockerfile: Dockerfile
+       ports:
+         - "8080:80"
+       environment:
+         - ASPNETCORE_ENVIRONMENT=Development
+       container_name: c_testapi
