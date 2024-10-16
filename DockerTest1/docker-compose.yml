@@ -6,4 +6,3 @@ services:
     ports:
       - "1000:1000"
     container_name: c_testapi
-    restart: always
