@@ -5,6 +5,4 @@ services:
          dockerfile: Dockerfile
        ports:
          - "1000:1000"
-       environment:
-         - ASPNETCORE_ENVIRONMENT=Development
        container_name: c_testapi
