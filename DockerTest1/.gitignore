@@ -13,8 +13,6 @@
 .env
 
 # Docker ile ilgili dosyalar
-docker-compose.yml
-Dockerfile
 
 # Test sonuçları
 TestResults/
