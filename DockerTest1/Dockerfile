@@ -5,8 +5,8 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY . ./
-RUN dotnet restore
-RUN dotnet publish -c Release -o /app --verbosity minimal
+RUN dotnet restore --verbosity minimal
+RUN dotnet publish -c Release -o /app --no-restore --verbosity minimal
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app ./
