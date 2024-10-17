@@ -1,0 +1,51 @@
+# .NET ve ASP.NET projeleri için
+*.bin
+*.obj
+*.dll
+*.pdb
+*.exe
+*.log
+*.cache
+*.vs
+.vscode/
+**/secrets.json
+**/appsettings.json
+.env
+
+# Docker ile ilgili dosyalar
+docker-compose.yml
+Dockerfile
+
+# Test sonuçları
+TestResults/
+*.trx
+*.coverage
+
+# Paket yönetimi ile ilgili
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# MacOS, Linux ve Windows işletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+*.iml
+
+# Log dosyaları
+*.log
+logs/
+debug.log
+error.log
+
+# JetBrains IDE'si için
+.idea/
+*.sln.iml
+
+# Git’in izlememesi gereken diğer geçici dosyalar
+temp/
+.tmp/
+
+# Herhangi bir geçici build dosyası
+dist/
